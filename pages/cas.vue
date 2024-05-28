@@ -6,70 +6,43 @@ useHead({
 })
 
 useSeoMeta({
-  title: 'Escuelas en juego - Con nuestros hijos no se juega - Compromís',
-  ogTitle: 'Escuelas en juego - Con nuestros hijos no se juega - Compromís',
-  description: 'El gobierno de Mazón quiere que se puedan volver a dar licencias en las casas de apuestas que se encuentran junto a los centros educativos.',
-  ogDescription: 'El gobierno de Mazón quiere que se puedan volver a dar licencias en las casas de apuestas que se encuentran junto a los centros educativos.',
-  ogImage: 'https://escolesenjoc.comprosmis.net/images/ogimage.png',
+  title: 'El mapa de la vergüenza - Compromís',
+  ogTitle: 'El mapa de la vergüenza - Compromís',
+  description: 'Una herramienta viva donde podrás identificar cómo nos afectan de manera concreta esas políticas a lo largo del País Valenciano: puntos negros, recortes, caos, inoperancia y censura.',
+  ogDescription: 'Una herramienta viva donde podrás identificar cómo nos afectan de manera concreta esas políticas a lo largo del País Valenciano: puntos negros, recortes, caos, inoperancia y censura..',
+  ogImage: 'https://mapavergonya.compromis.net/images/ogimage.png',
   twitterCard: 'summary_large_image',
 })
 </script>
 
 <template>
   <main>
-    <Hero />
     <div class="container">
+      <SiteHeader />
       <section class="text text-intro">
-        <h1 v-motion-fade-visible>
-          Con nuestros<br>
-          hijos e hijas<br>
-          no se juega
+        <h1 v-motion-fade-visible class="visually-hidden">
+          El mapa de la vergüenza
         </h1>
 
         <Languages />
 
         <p v-motion-fade-visible>
-          El gobierno de Mazón quiere que se puedan volver a dar licencias en las casas de apuestas que se encuentran junto a los centros educativos, tal y como reclama el lobby del juego.
+          Hace ahora un año de las elecciones autonómicas de 2023. Unas elecciones que se tradujeron en un pacto de gobierno entre el Partido Popular y la extrema derecha.  
         </p>
         <p v-motion-fade-visible>
-          Esta medida supone un paso atrás en la lucha contra la ludopatía infantil y juvenil al normalizar que haya casinos o casas de juego a menos de 850 metros de institutos, centros de secundaria y de formación profesional.
+          En pocos meses, la alianza de Carlos Mazón y los ultras en la Generalitat Valenciana ha evidenciado una gestión caótica y una hoja de ruta austericida e involucionista, enemigo del valenciano, de los servicios públicos y de los derechos y libertades logrados con Compromís en el gobierno.
         </p>
-        <p>Esta es la realidad en datos:</p>
-      </section>
-      <section class="slot-slides">
-        <div class="slot-slide">
-          <SlotMachine prize="25%" id="slotMachine1">
-            1 de cada 4 menores juegan en casas de apuesta de forma regular según datos del Defensor del Menor.
-          </SlotMachine>
-        </div>
-        <div class="slot-slide">
-          <SlotMachine prize="80%" id="slotMachine2">
-            El 80% de las personas que sufren son menores de 30 años.
-          </SlotMachine>
-        </div>
-        <div class="slot-slide">
-          <SlotMachine prize="63%" id="slotMachine3">
-            El 63% de los jóvenes menores de 25 años ha apostado en alguna ocasión.
-          </SlotMachine>
-        </div>
+        <p v-motion-fade-visible>
+          Las consecuencias de la pésima gestión y de las políticas reaccionarias impulsadas por este gobierno de la vergüenza las sufrimos de forma muy directa todas las valencianas y valencianos en el día a día en nuestros pueblos y ciudades: educación, sanidad, igualdad, políticas sociales, medio ambiente, transparencia, etc.
+        </p>
+        <p v-motion-fade-visible>
+          Aquí teneis el “Mapa de la vergüenza”, una herramienta viva donde podrás identificar cómo nos afectan de manera concreta esas políticas a lo largo del País Valenciano: puntos negros, recortes, caos, inoperancia y censura.
+        </p>
       </section>
     </div>
-    <Map>
-      <template #title>
-        Mapa de centros educativos afectados
-      </template>
-      <p v-motion-fade-visible>
-        Gracias al trabajo de Compromís en la Generalitat Valenciana, se logró alejar las casas de apuestas de los centros educativos.
-      </p>
-      <p v-motion-fade-visible>
-        Ahora, con esta cesión de Mazón a la que se lucra con la ludopatía, nuestros niños y niñas podrán tener estos establecimientos en frente de la escuela al salir de clase , con el peligro que supone para este tipo de adicciones.
-      </p>
-      <p v-motion-fade-visible>
-        En este mapa puede ver cómo está la situación:
-      </p>
-    </Map>
+    <Map />
     <Share>
-      <template #title>¡Difúndelo!</template>
+      <template #title>Haz difusión</template>
       <p>Comparte esta página con tus amistades.</p>
     </Share>
   </main>
