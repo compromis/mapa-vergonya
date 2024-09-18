@@ -27,16 +27,16 @@ useSeoMeta({
         <Languages />
 
         <p v-motion-fade-visible>
-          Hace ahora un año de las elecciones autonómicas de 2023. Unas elecciones que se tradujeron en un pacto de gobierno entre el Partido Popular y la extrema derecha.  
+          Hace 500 días de las elecciones autonómicas de 2023. Unas elecciones que se tradujeron en un pacto de gobierno entre el Partido Popular y la extrema derecha.
         </p>
         <p v-motion-fade-visible>
-          En pocos meses, la alianza de Carlos Mazón y los ultras en la Generalitat Valenciana ha evidenciado una gestión caótica y una hoja de ruta austericida e involucionista, enemigo del valenciano, de los servicios públicos y de los derechos y libertades logrados con Compromís en el gobierno.
+          Un gobierno fallido, que duró un año justo. Un gobierno que ha evidenciado una gestión caótica y una hoja de ruta austericida e involucionista, enemigo del valenciano, de los servicios públicos y de los derechos y libertades logrados con Compromís en el gobierno. Un gobierno que ha empeorado todas las cifras de gestión y donde, en definitiva, la gente vive peor.
         </p>
         <p v-motion-fade-visible>
-          Las consecuencias de la pésima gestión y de las políticas reaccionarias impulsadas por este gobierno de la vergüenza las sufrimos de forma muy directa todas las valencianas y valencianos en el día a día en nuestros pueblos y ciudades: educación, sanidad, igualdad, políticas sociales, medio ambiente, transparencia, etc.
+          Las consecuencias de la pésima gestión y de las políticas reaccionarias impulsadas por este gobierno fallido de la vergüenza las sufrimos de forma muy directa todas las valencianas y valencianos en el día a día de nuestros pueblos y ciudades: educación, sanidad, igualdad, políticas sociales, medio ambiente, transparencia, etc.
         </p>
         <p v-motion-fade-visible>
-          Aquí teneis el “Mapa de la vergüenza”, una herramienta viva donde podrás identificar cómo nos afectan de manera concreta esas políticas a lo largo del País Valenciano: puntos negros, recortes, caos, inoperancia y censura.
+          Aquí tenéis el “Mapa de la vergüenza”, una herramienta viva donde podrá identificar cómo nos afectan de manera concreta esas políticas a lo largo del País Valenciano: puntos negros, recortes, caos, inoperancia y censura.
         </p>
       </section>
     </div>
