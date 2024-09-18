@@ -10,7 +10,7 @@ useSeoMeta({
   ogTitle: 'El mapa de la vergüenza - Compromís',
   description: 'Una herramienta viva donde podrás identificar cómo nos afectan de manera concreta esas políticas a lo largo del País Valenciano: puntos negros, recortes, caos, inoperancia y censura.',
   ogDescription: 'Una herramienta viva donde podrás identificar cómo nos afectan de manera concreta esas políticas a lo largo del País Valenciano: puntos negros, recortes, caos, inoperancia y censura..',
-  ogImage: 'https://mapavergonya.compromis.net/images/ogimage.png',
+  ogImage: 'https://mapadelavergonya.com/images/ogimage.png',
   twitterCard: 'summary_large_image',
 })
 </script>
